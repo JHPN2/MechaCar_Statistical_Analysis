@@ -15,7 +15,12 @@ Linear Regression Model:
   Based on the results from the linear regression model, the variables/coefficients that provide a non-random amount of  variance are Vehicle Weight, Spoiler Angle, and AWD bsaed on their Pr(>|t|) value being greater than the significant level of 0.05. What this means is that these three variables would directly affect the MPG values of the prototypes. On the otherhand, Vehicle Length and Ground Clearance have random amounts of variance and would not necessarily directly affect MPG values of the prototypes.
   
 * *Is the slope of the linear model considered to be zero? Why or why not?*
+
+  The slope is not zero because the calculated p-value of 5.35e-11 is lower than our 0.05 significant level. This therefore tells us that our slope is not zero. 
+
 * *Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?*
+
+  Based on the results from the analysis, our multiple R-squared value of 0.7149 suggest that our linear model can predict the MPGs of the MechaCar prototypes effectively.
 
 ## Summary Statistic for Coil Suspension
 
