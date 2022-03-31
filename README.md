@@ -3,11 +3,17 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 ## LinearRegression to Predict MPG
 
-[Blank]
+Using R, we have design a linear model that predicts the mpg of the 50 MechaCar prototypes using multiple design specifications to identify ideal vehicle performance from the MechaCar_mpg.csv file. These multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle.
+
+Linear Regression Model:
+
 
 #### Questions:
 
 * *Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?*
+
+  Based on the results from the linear regression model, the variables/coefficients that provide a non-random amount of  variance are Vehicle Weight, Spoiler Angle, and AWD bsaed on their Pr(>|t|) value being greater than the significant level of 0.05. What this means is that these three variables would directly affect the MPG values of the prototypes. On the otherhand, Vehicle Length and Ground Clearance have random amounts of variance and would not necessarily directly affect MPG values of the prototypes.
+  
 * *Is the slope of the linear model considered to be zero? Why or why not?*
 * *Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?*
 
