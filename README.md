@@ -7,7 +7,7 @@ Using R, we have design a linear model that predicts the mpg of the 50 MechaCar 
 
 Linear Regression Model:
 
-[screenshot]
+![Linear Regression](Linear_Regression_Model_Summary.png "Summary")
 
 #### Questions:
 
@@ -29,13 +29,13 @@ In this analysis, the weight capacities of multiple suspension coils were tested
 
 To determine if the process is consistent, an analysis was performed on the MechaCar Suspension_Coil.csv dataset and the following total summary table was created:
 
-[table 1]
+![Total Summary](Total_Summary.png "Total Summary")
 
 This table indicates that as a whole our production of suspension coils are consistant.
 
 The next table details the individual lots as a lot summary.
 
-[table 2]
+![Lot Summary](Lot_Summary.png "Lot Summary")
 
 This lot summary gives further detail on a individual lot basis. One thing to note is the variances of each of the lots. The variences appear to grow with each new lot. This could mean that our production consistency is slipping with every new lot.
 
@@ -53,13 +53,17 @@ Here we perform t-tests to determine if all manufacturing lots and each lot indi
 
 We wrote an RScript to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch. Here's our result:
 
-[result]
+![T-Test All](T-Test_All.png "T-Test All")
 
 The p-value calculated for all lots is 0.06028 which is greater than the established 0.05 significant level. We can conclude that the distribution of the data is in a normal distribution.
 
 Then, we performed this same analysis for each of the 3 Lots. Here's our results:
 
-[result lot 1,2,3]
+![T-Test Lot1](T-Test_Lot1.png "T-Test Lot1")
+
+![T-Test Lot2](T-Test_Lot2.png "T-Test Lot2")
+
+![T-Test Lot3](T-Test_Lot3.png "T-Test Lot3")
 
 The p-values are as follows:
 Lot 1 = 1, Lot 2 = 0.6072, Lot 3 = 0.04168
