@@ -55,12 +55,23 @@ We wrote an RScript to determine if the PSI across all manufacturing lots is sta
 
 [result]
 
+The p-value calculated for all lots is 0.06028 which is greater than the established 0.05 significant level. We can conclude that the distribution of the data is in a normal distribution.
+
 Then, we performed this same analysis for each of the 3 Lots. Here's our results:
 
 [result lot 1,2,3]
 
+The p-values are as follows:
+Lot 1 = 1, Lot 2 = 0.6072, Lot 3 = 0.04168
 
+Interpreting these values, we can conclude that since the p-values of lots 1 & 2 calculated is greater than the established 0.05 significant level, the distribution of the data is in a normal distribution. However, since the p-value of lot 3 is less than the established 0.05 significant level, the distribution of the data is not in a normal distribution.
 
-## MechaCar VS. The Competition
+## Study Design: MechaCar VS. The Competition
 
-[Blank]
+Metric to be tested
+
+Null or Alternative Hypothesis
+
+Statistical Test
+
+Data for Statistical Test
