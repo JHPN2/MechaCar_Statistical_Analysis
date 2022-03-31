@@ -68,10 +68,18 @@ Interpreting these values, we can conclude that since the p-values of lots 1 & 2
 
 ## Study Design: MechaCar VS. The Competition
 
-Metric to be tested
+In the following, we designed a statistical study to compare the performance of the MechaCar vehicle against the performance of vehicles from other manufacturers.
 
-Null or Alternative Hypothesis
+#### Metric to be tested
 
-Statistical Test
+Considering the current state of the global economy, we have decided to analyze the cost and fuel efficiency of the MechaCar to its competitors. We believe these metrics to be most important and harbor the greatest interests/influence to potential customers.
+
+#### Null or Alternative Hypothesis
+
+Null Hypothesis - There is no difference in pricing or fuel efficiency for MechaCar to the competition.
+
+Alternative Hypothesis - There is a difference in pricing and fuel efficiency for MechaCar to the competition.
+
+#### Statistical Test
 
 Data for Statistical Test
