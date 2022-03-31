@@ -86,4 +86,8 @@ Alternative Hypothesis - There is a difference in pricing and fuel efficiency fo
 
 #### Statistical Test
 
-Data for Statistical Test
+The one-sample T-Test would be employed to both the MechaCar and the competition in order to determine the means for pricing and fuel efficiency. From there a linear regression can be performed with pricing and fuel efficiency as the main factors to focus on.
+
+#### Data for Statistical Test
+
+We will need the pricing and fuel efficency data of both MechaCar and the competition. The data from the competition can be obtained from publicized sales and performance data, however, data will only be available from current on sale competitors vehicles. 
